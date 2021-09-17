@@ -1,0 +1,12 @@
+{
+  "name": "New Ptab",
+  "description": "open a new Ptab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "new-tab.html"
+  }
+}
