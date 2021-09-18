@@ -1,7 +1,7 @@
 /*
  * @Author: Przeblysk
  * @Date: 2021-09-14 13:58:57
- * @LastEditTime: 2021-09-17 19:48:44
+ * @LastEditTime: 2021-09-18 15:59:36
  * @LastEditors: Przeblysk
  * @Description:
  * @FilePath: /new-ptab/webpack.config.js
@@ -32,8 +32,15 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+  resolve: {
+    extensions: [".js", ".jsx", ".json", ".wasm"],
+  },
   module: {
     rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
       {
         test: /\.s[ac]ss$/i,
         exclude: /\.module\.((sa|sc)ss)$/,

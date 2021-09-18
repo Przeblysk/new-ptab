@@ -1,0 +1,33 @@
+.wrapper {
+  padding: 0 0 40px 0;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  
+    .row {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      .rowItem {
+        height: 40px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        color: #393E46;
+        transition: background-color .1s ease-in;
+        &:hover {
+          cursor: pointer;
+          color: #222831;
+          background-color: #EEEEEE;
+        }
+
+        &:first-child {
+          color: #cbcacb
+        }
+        &:first-child:hover {
+          cursor: auto;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.wrapper {
+  padding: 0 10px;
+
+  .container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 80px 0;
+
+
+    .bar {
+      max-width: 470px;
+      display: flex;
+      justify-content: space-between;
+
+      .barItem {
+        height: 32px;
+        padding: 0 8px;
+        border-bottom: 2px solid transparent;
+        transition: all .2s ease-in;
+        color: #393E46;
+        cursor: pointer;
+
+        &:hover {
+          color: #222831;
+          opacity: 1;
+          border-color: #222831;
+        }
+      }
+
+      .active {
+        color: #222831;
+        opacity: 1;
+        border-color: #222831;
+      }
+    }
+
+    .searchForm {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+
+      .searchInput {
+        padding-left: 12px;
+        max-width: 470px;
+        width: 74%;
+        height: 46px;
+        background: #EEEEEE;
+        color: #393E46;
+      }
+
+      .searchBtn {
+        max-width: 130px;
+        width: 26%;
+        height: 46px;
+        color: #fff;
+        background: #222831;
+        cursor: pointer;
+      }
+    }
+  }
+
+}

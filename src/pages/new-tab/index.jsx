@@ -1,12 +1,13 @@
 import React from 'react'
-
+import Search from './components/search'
+import Tabs from './components/tabs'
 import Styles from './index.module.scss'
 
 const App = () => {
-
   return (
     <div className={Styles.wrapper}>
-      New Ptab
+      <Search />
+      <Tabs />
     </div>
   )
 }
