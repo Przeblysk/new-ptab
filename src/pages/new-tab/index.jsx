@@ -5,10 +5,13 @@ import Styles from './index.module.scss'
 
 const App = () => {
   return (
-    <div className={Styles.wrapper}>
-      <Search />
-      <Tabs />
-    </div>
+    <>
+      <div className={Styles.mask} />
+      <div className={Styles.wrapper}>
+        <Search />
+        <Tabs />
+      </div>
+    </>
   )
 }
 

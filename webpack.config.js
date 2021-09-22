@@ -1,7 +1,7 @@
 /*
  * @Author: Przeblysk
  * @Date: 2021-09-14 13:58:57
- * @LastEditTime: 2021-09-18 15:59:36
+ * @LastEditTime: 2021-09-22 15:43:13
  * @LastEditors: Przeblysk
  * @Description:
  * @FilePath: /new-ptab/webpack.config.js
@@ -34,6 +34,9 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".jsx", ".json", ".wasm"],
+    alias: {
+      styles: path.resolve(__dirname, "src/styles"),
+    }
   },
   module: {
     rules: [

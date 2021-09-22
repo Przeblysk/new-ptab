@@ -1,0 +1,205 @@
+[
+  {
+    "category": "常用",
+    "list":[
+      {
+        "title": "开发",
+        "list": [
+          {
+            "name": "Github",
+            "url": "https://github.com/"
+          },
+          {
+            "name": "Gitee",
+            "url": "https://gitee.com/"
+          },
+          {
+            "name": "Coding",
+            "url": "https://coding.net/"
+          },
+          {
+            "name": "石墨",
+            "url": "https://shimowendang.com/recent"
+          },
+          {
+            "name": "wx公众平台",
+            "url": "https://mp.weixin.qq.com/"
+          },
+          {
+            "name": "Taro",
+            "url": "https://taro-docs.jd.com/taro/docs/README"
+          },
+          {
+            "name": "蓝湖",
+            "url": "https://lanhuapp.com/"
+          }
+        ]
+      },
+      {
+        "title": "设计",
+        "list": [
+          {
+            "name": "花瓣",
+            "url": "https://huaban.com/"
+          },
+          {
+            "name": "UICN",
+            "url": "https://www.ui.cn/"
+          },
+          {
+            "name": "dribbble",
+            "url": "https://dribbble.com/"
+          },
+          {
+            "name": "behance",
+            "url": "https://www.behance.net/"
+          },
+          {
+            "name": "awwwards",
+            "url": "https://www.awwwards.com/"
+          },
+          {
+            "name": "优设",
+            "url": "https://www.uisdc.com/"
+          },
+          {
+            "name": "pttrns",
+            "url": "https://www.pttrns.com/"
+          }
+        ]
+      },
+      {
+        "title": "视频",
+        "list": [
+          {
+            "name": "bilibili",
+            "url": "https://www.bilibili.com/"
+          },
+          {
+            "name": "腾讯视频",
+            "url": "https://v.qq.com/"
+          },
+          {
+            "name": "爱奇艺",
+            "url": "https://www.iqiyi.com/"
+          },
+          {
+            "name": "芒果视频",
+            "url": "https://www.mgtv.com/"
+          },
+          {
+            "name": "优酷",
+            "url": "https://www.youku.com/"
+          },
+          {
+            "name": "西瓜",
+            "url": "https://www.ixigua.com/"
+          },
+          {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/"
+          }
+        ]
+      },
+      {
+        "title": "购物",
+        "list": [
+          {
+            "name": "淘宝",
+            "url": "https://www.taobao.com/"
+          },
+          {
+            "name": "京东",
+            "url": "https://www.jd.com/"
+          },
+          {
+            "name": "网易严选",
+            "url": "https://you.163.com/"
+          },
+          {
+            "name": "小米商城",
+            "url": "https://www.mi.com/"
+          },
+          {
+            "name": "苏宁易购",
+            "url": "https://www.suning.com/"
+          },
+          {
+            "name": "亚马逊",
+            "url": "https://www.amazon.cn/"
+          },
+          {
+            "name": "什么值得买",
+            "url": "https://www.smzdm.com/"
+          }
+        ]
+      },
+      {
+        "title": "资讯",
+        "list": [
+          {
+            "name": "网易",
+            "url": "https://www.163.com/"
+          },
+          {
+            "name": "腾讯",
+            "url": "http://www.qq.com/"
+          },
+          {
+            "name": "新浪",
+            "url": "http://www.sina.com.cn/"
+          },
+          {
+            "name": "搜狐",
+            "url": "http://www.sohu.com/"
+          },
+          {
+            "name": "凤凰网",
+            "url": "http://www.ifeng.com/"
+          },
+          {
+            "name": "人民网",
+            "url": "http://www.people.com.cn/"
+          },
+          {
+            "name": "新华网",
+            "url": "http://xinhuanet.com/"
+          }
+        ]
+      },
+      {
+        "title": "发现",
+        "list": [
+          {
+            "name": "V2EX",
+            "url": "https://www.v2ex.com/"
+          },
+          {
+            "name": "掘金",
+            "url": "https://juejin.im/"
+          },
+          {
+            "name": "开源中国",
+            "url": "https://www.oschina.net/"
+          },
+          {
+            "name": "InfoQ",
+            "url": "http://www.infoq.com/cn/"
+          },
+          {
+            "name": "stackoverflow",
+            "url": "https://stackoverflow.com/"
+          },
+          {
+            "name": "博客园",
+            "url": "https://www.cnblogs.com/"
+          },
+          {
+            "name": "CSDN",
+            "url": "https://www.csdn.net/"
+          }
+        ]
+      }
+    ]
+  }
+]
