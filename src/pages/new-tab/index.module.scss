@@ -1,7 +1,7 @@
 @import '~styles/vars.scss';
 
 body {
-  background: url('https://cdn.pixabay.com/photo/2021/09/16/11/44/bank-6629880_1280.jpg') left/cover no-repeat;
+  background: url('https://cdn.pixabay.com/photo/2021/09/15/21/29/lake-6627781_1280.jpg') left/cover no-repeat;
 }
 
 .mask {
@@ -10,16 +10,21 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
+  // background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.9) 100%);
   background: rgba($color: #fff, $alpha: 0.5);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(40px);
 }
 
 .wrapper {
   position: relative;
   z-index: 2;
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 72px auto;
   padding: 0;
   box-sizing: border-box;
+  background: rgba($color: #fff, $alpha: 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba($color: #fff, $alpha: 0.7);
   // background: #fdfdfd;
 }
