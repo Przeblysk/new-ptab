@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "experimentalDecorators": true,
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
     "paths": {
       "styles/*": ["./src/styles/*"],
       "pages/*": ["./src/pages/*"],
